@@ -1,15 +1,12 @@
 package client;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Point;
+import java.awt.*;
 import java.io.IOException;
 import javax.swing.JPanel;
 import models.Food;
 import models.FoodList;
 
 public class GamePanel extends JPanel implements ProtocolManagerListener {
-
     private MovementThread mt;
 
     public static ClientPlayer player = null;

@@ -15,10 +15,6 @@ public class MovementThread extends Thread implements MouseMotionListener {
 
     private JPanel container;
 
-    public void setAngle(double angle) {
-        this.angle = angle;
-    }
-
     public MovementThread(JPanel container, ProtocolManager pm) {
         this.container = container;
         this.pm = pm;

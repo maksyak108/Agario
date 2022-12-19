@@ -49,10 +49,6 @@ public class Player {
         points++;
     }
 
-    public void removePoint() {
-        points--;
-    }
-
     public Player(int id, Point point) {
         this.id = id;
         this.point = point;

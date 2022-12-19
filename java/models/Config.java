@@ -1,7 +1,5 @@
 package models;
 
-import java.awt.*;
-
 public class Config {
 
     public static int FIELD_WIDTH = 2000;
